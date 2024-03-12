@@ -108,7 +108,7 @@ namespace AsciiFBXExporter
 				tempConnectionsSb.AppendLine("\t;Model::" + meshName + ", Model::USING PARENT");
 			tempConnectionsSb.AppendLine("\tC: \"OO\"," + modelId + "," + parentModelId);
 			tempConnectionsSb.AppendLine();
-			tempObjectSb.AppendLine("\tModel: " + modelId + ", \"Model::" + gameObj.name + "\", \"" + isMesh + "\" {");
+			tempObjectSb.AppendLine("\tModel: " + modelId + ", \"Model::" + meshName + "\", \"" + isMesh + "\" {");
 			tempObjectSb.AppendLine("\t\tVersion: 232");
 			tempObjectSb.AppendLine("\t\tProperties70:  {");
 			tempObjectSb.AppendLine("\t\t\tP: \"RotationOrder\", \"enum\", \"\", \"\",4");
